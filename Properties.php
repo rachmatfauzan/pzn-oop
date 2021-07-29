@@ -20,12 +20,14 @@ $person = new Person();
 $person->name = "Putri";
 $person->address = null;
 $person->age = "21 th";
+$person->hobbies = "Lari dari kenyataan"; //Menambahkan properties dari luar class
 
 var_dump($person);
 
 echo "Nama : $person->name" . PHP_EOL;
 echo "Alamat : $person->address" . PHP_EOL;
 echo "Umur : $person->age" . PHP_EOL;
+echo "Hobi : $person->hobbies" . PHP_EOL;
 
 
 ?>
