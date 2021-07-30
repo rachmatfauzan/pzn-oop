@@ -10,18 +10,19 @@ class Manager{
         $this->name = $name;
     }
 
-    function sayHello($name):void //void digunakan jika method tidak mempunyai nilai kembalian
+    function sayHello($clnPegawai):void //void digunakan jika method tidak mempunyai nilai kembalian
     {
-        echo "Hallo $name, Pernkenalkan saya Manager {$this->name}" . PHP_EOL;
-    }
-    function masokPak($name):string //void digunakan jika method tidak mempunyai nilai kembalian
-    {
-        return "Masok Pak $name, Pernkenalkan saya Manager {$this->name}" . PHP_EOL;
+        echo "Hallo $clnPegawai, Pernkenalkan saya Manager {$this->name}" . PHP_EOL;
     }
 }
 
 class VicePresident extends Manager{
     
+    function sayHello($clnPegawai):void //void digunakan jika method tidak mempunyai nilai kembalian
+    {
+        echo "Hallo $clnPegawai, Pernkenalkan saya Vice President {$this->name}" . PHP_EOL;
+    }
 }
+
 
 ?>
