@@ -5,7 +5,7 @@ namespace Data\One{
 
     class Conflict{
         var $name = "ajiz";
-        function call($name)
+        function call($name = "ako")
         {   
             $this->name = $name;
             return "Data - 1 a/n= $this->name" . PHP_EOL;

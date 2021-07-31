@@ -11,6 +11,7 @@ use Helper\Help;
 $conflict = new Conflict1();
 echo $conflict->call("Arif");
 
+
 $conflict2 = new Conflict2();
 echo $conflict2->call();
 
