@@ -14,8 +14,9 @@ $programmer->developer = new FrontendProgrammer("ichal");
 var_dump($programmer);
 
 
-sayHelloProgramemr(new Programmer("ajiks"));
-sayHelloProgramemr(new BackendProgrammer("cula"));
-sayHelloProgramemr(new FrontendProgrammer("jurik"));
+
+sayHelloProgramer(new Programmer("ajiks"));
+sayHelloProgramer(new BackendProgrammer("Ajiks"));
+sayHelloProgramer(new FrontendProgrammer("jurik"));
 
 ?>

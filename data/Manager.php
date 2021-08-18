@@ -1,7 +1,6 @@
 <?php 
 
 namespace pzn;
-
 class Manager{
 
     /*

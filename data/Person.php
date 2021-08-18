@@ -5,7 +5,7 @@ class Person{
 
     var string $name = "Rio";
     var string $age;
-    var ?string $address = null;
+    var ?string $address = null; // tanda '?' artinya dibolehkan null
 
     function greeting(?string $name){
         if(is_null($name)){
