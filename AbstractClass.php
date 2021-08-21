@@ -2,7 +2,7 @@
 
 require_once "data/Location.php";
 
-use Data\{Location, City, Province, Country};
+use Data\{City, Province, Country};
 
 // $location = new Location(); error -> karen class abstract
 
@@ -11,6 +11,9 @@ echo $city->name = "Awas";
 
 
 $province = new Province();
+$province->name = "Jabar";
+var_dump( $province);
+
 $country = new Country;
 
 

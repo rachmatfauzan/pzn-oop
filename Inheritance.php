@@ -1,6 +1,7 @@
 <?php 
 
 require_once "data/Manager.php";
+use pzn\{Manager, VicePresident};
 
 
 
