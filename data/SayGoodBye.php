@@ -21,7 +21,12 @@ trait SayGoodBye{
 }
 
 trait HasName{
-    public string $name;
+    protected string $name = "Default Name";
+
+    public function setName($name)
+    {
+        $this->name = $name;
+    }
 }
 
 trait CanRun{
@@ -40,8 +45,17 @@ trait SayHello{
     }
 }
 
+trait All {
+    use SayHello, SayGoodBye, HasName, CanRun {
+        // Bisa di Override
+        // hello as private;
+        // goodBye as protected;
+    }
+}
+
 class Person{
-    use SayHello, SayGoodBye, HasName, CanRun;
+
+    use All;
 
     public function run()
     {
